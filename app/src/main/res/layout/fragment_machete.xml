@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MacheteFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:titleTextAppearance="@style/Toolbar.TitleText"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/button__9_"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <ImageView
+            android:id="@+id/action_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/media47"
+            app:layout_constraintTop_toBottomOf="@id/button1"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="36dp"
+            android:text="@string/rt"
+            android:textColor="#1C1B1F"
+            android:textSize="28sp"
+            app:layout_constraintTop_toBottomOf="@id/action_image" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="26dp"
+            android:lineHeight="20dp"
+            android:text="@string/minecraft_bedrock_machetes_6"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/ou"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/text2" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/ppp"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text3" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media48"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text4" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/pppuu"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/fff"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text5" />
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media49"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text6" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/jjj"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout2" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/jjjjjj"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text7" />
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media50"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text8" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/jjjjyy"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout4" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/bmgvhbmv"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text9" />
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media51"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text10" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/zxcv"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout6" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/sdf"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text11" />
+
+        <LinearLayout
+            android:id="@+id/layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media52"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text12" />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/sdfg"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout8" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/dsf"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text13" />
+
+        <LinearLayout
+            android:id="@+id/layout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media53"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text14" />
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/dsfg"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout10" />
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="20dp"
+            android:text="@string/sfdg"
+            android:textColor="#394231"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/text15" />
+        <LinearLayout
+            android:id="@+id/layout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/media54"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/text16" />
+        <LinearLayout
+            android:id="@+id/layout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/button__10_"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/layout12" />
+        <TextView
+            android:id="@+id/text24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineHeight="24dp"
+            android:text="@string/sdfgrr"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout13" />
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/frame_15__2_"
+            app:flow_verticalGap="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

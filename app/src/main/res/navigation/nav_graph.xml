@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/blankFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="uz.akbarali.fashion.ui.ui.FashionFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank">
+        <action
+            android:id="@+id/action_blankFragment_to_thunderWeaponFragment"
+            app:destination="@id/thunderWeaponFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="uz.akbarali.fashion.ui.ui.InstructionFragment"
+        android:label="fragment_instruction"
+        tools:layout="@layout/fragment_instruction" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uz.akbarali.fashion.ui.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/thunderWeaponFragment"
+        android:name="uz.akbarali.fashion.ui.ui.ThunderWeaponFragment"
+        android:label="fragment_thunder_weapon"
+        tools:layout="@layout/fragment_thunder_weapon" />
+    <fragment
+        android:id="@+id/staffsFragment"
+        android:name="uz.akbarali.fashion.StaffsFragment"
+        android:label="fragment_staffs"
+        tools:layout="@layout/fragment_staffs" />
+    <fragment
+        android:id="@+id/macheteFragment"
+        android:name="uz.akbarali.fashion.MacheteFragment"
+        android:label="fragment_machete"
+        tools:layout="@layout/fragment_machete" />
+    <fragment
+        android:id="@+id/elementalSwordsFragment"
+        android:name="uz.akbarali.fashion.ElementalSwordsFragment"
+        android:label="fragment_elemental_swords"
+        tools:layout="@layout/fragment_elemental_swords" />
+    <fragment
+        android:id="@+id/realistic3DweaponsFragment"
+        android:name="uz.akbarali.fashion.Realistic3DweaponsFragment"
+        android:label="fragment_realistic3_dweapons"
+        tools:layout="@layout/fragment_realistic3_dweapons" />
+    <fragment
+        android:id="@+id/levelsParkourMapFragment"
+        android:name="uz.akbarali.fashion.LevelsParkourMapFragment"
+        android:label="fragment_levels_parkour_map"
+        tools:layout="@layout/fragment_levels_parkour_map" />
+    <fragment
+        android:id="@+id/demonSlayerFragment"
+        android:name="uz.akbarali.fashion.DemonSlayerFragment"
+        android:label="fragment_demon_slayer"
+        tools:layout="@layout/fragment_demon_slayer" />
+    <fragment
+        android:id="@+id/poppyPlaytimeFragment"
+        android:name="uz.akbarali.fashion.PoppyPlaytimeFragment"
+        android:label="fragment_poppy_playtime"
+        tools:layout="@layout/fragment_poppy_playtime" />
+    <fragment
+        android:id="@+id/alotOfFirearmsFragment"
+        android:name="uz.akbarali.fashion.AlotOfFirearmsFragment"
+        android:label="fragment_alot_of_firearms"
+        tools:layout="@layout/fragment_alot_of_firearms" />
+    <fragment
+        android:id="@+id/riflesFragment"
+        android:name="uz.akbarali.fashion.RiflesFragment"
+        android:label="fragment_rifles"
+        tools:layout="@layout/fragment_rifles" />
+    <fragment
+        android:id="@+id/ALFArmamentFragment"
+        android:name="uz.akbarali.fashion.ALFArmamentFragment"
+        android:label="fragment_a_l_f_armament"
+        tools:layout="@layout/fragment_a_l_f_armament" />
+    <fragment
+        android:id="@+id/spidermanUniverseFragment"
+        android:name="uz.akbarali.fashion.SpidermanUniverseFragment"
+        android:label="fragment_spiderman_universe"
+        tools:layout="@layout/fragment_spiderman_universe" />
+    <fragment
+        android:id="@+id/luckyFragment"
+        android:name="uz.akbarali.fashion.LuckyFragment"
+        android:label="fragment_lucky"
+        tools:layout="@layout/fragment_lucky" />
+    <fragment
+        android:id="@+id/shadersFragment"
+        android:name="uz.akbarali.fashion.ShadersFragment"
+        android:label="fragment_shaders"
+        tools:layout="@layout/fragment_shaders" />
+    <fragment
+        android:id="@+id/furnitureFragment"
+        android:name="uz.akbarali.fashion.FurnitureFragment"
+        android:label="fragment_furniture"
+        tools:layout="@layout/fragment_furniture" />
+    <fragment
+        android:id="@+id/MCWorldFragment"
+        android:name="uz.akbarali.fashion.MCWorldFragment"
+        android:label="fragment_m_c_world"
+        tools:layout="@layout/fragment_m_c_world" />
+    <fragment
+        android:id="@+id/RARFragment"
+        android:name="uz.akbarali.fashion.RARFragment"
+        android:label="fragment_r_a_r"
+        tools:layout="@layout/fragment_r_a_r" />
+</navigation>
